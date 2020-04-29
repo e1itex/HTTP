@@ -1,8 +1,8 @@
 from selenium import webdriver
  
-options = webdriver.chromeoptions()
+options = webdriver.ChromeOptions()
 options.add_argument('headless')
-driver = webdriver.chrome(chrome_options=options)
+driver = webdriver.Chrome(chrome_options=options)
  
 drive.get("https://www.us-proxy.org/")
  
